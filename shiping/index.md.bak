@@ -1,0 +1,22 @@
+---
+menu_id: post
+toc_title: shiping
+comment_title: 我的视频集
+comment_id: '我的视频集'
+comments: false
+sidebar: [welcome, recent, timeline]
+post_list: true
+---
+
+{% about %}
+<img height="64px" alt="guyingd" src="https://avatars.githubusercontent.com/u/79262296?s=80&v=4">
+<center>{% quot 如此暗淡的我，一切繁华与我无关 %}</center>
+{% endabout %}
+
+
+
+{% quot  我的视频收藏 icon:hashtag %}
+
+
+{% timeline api:https://api.github.com/repos/guyingd/shiping/issues?direction=asc %}
+{% endtimeline %}
